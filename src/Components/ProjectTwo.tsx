@@ -6,7 +6,7 @@ import thirdImage from"../assets/project2.jpg"
 export function ProjectTwo() {
   return (
    <div className="app-container">
-      {/* Red Header Bar */}
+     
       <header className="header">
         <span className="header-icon">🌍</span>
         <h1>my travel journal.</h1>
