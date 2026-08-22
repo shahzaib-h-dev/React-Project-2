@@ -13,16 +13,16 @@ export function PropsCreation(props: any) {
             className="main-image"
         />
         
-        <h3>Mr. Whiskerson</h3>
+        <h3>{props.name}</h3>
         
         <div className="info-group">
             <span className="icon">📞</span>
-            <p>(212) 555-1234</p>
+            <p>{props.phone}</p>
         </div>
         
         <div className="info-group">
             <span className="icon">✉️</span>
-            <p>mr.whiskaz@catnap.meow</p>
+            <p>{props.email}</p>
         </div>
     </article>
   </>

@@ -12,27 +12,27 @@ export function PropUse() {
 
       img={firstImage}
       name="mr. Whiskerson"
-      phone= "(212) 555-1234"
+      phone= "(212) 555-123"
       email= "mr.whiskaz@catnap.meow"
     />
     <PropsCreation
 
-     img={firstImage}
-      name="mr. Whiskerson"
+     img={secondImage}
+      name="mr. Whis"
       phone= "(212) 555-1234"
       email= "mr.whiskaz@catnap.meow"
     />
     <PropsCreation 
 
-     img={firstImage}
-      name="mr. Whiskerson"
-      phone= "(212) 555-1234"
+     img={thirdImage}
+      name="mr. Whisk"
+      phone= "(212) 555-134"
       email= "mr.whiskaz@catnap.meow"
     />
     <PropsCreation  
      img={firstImage}
-      name="mr. Whiskerson"
-      phone= "(212) 555-1234"
+      name="mr. kerson"
+      phone= "(212) 555-234"
       email= "mr.whiskaz@catnap.meow"
     />
   </div>
