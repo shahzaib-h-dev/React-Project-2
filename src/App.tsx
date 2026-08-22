@@ -9,6 +9,8 @@ import firstImage from "../assets/pro2.jpg"
 import { PropUse } from "./Components/PropUse";
 import { PropPractice } from "./Components/PropPractice";
 import { StaticImage } from "./Components/StaticImage";
+import { PropStaticImage } from "./Components/PropStaticImage";
+import { ArrayRendering } from "./Components/ArrayRendering";
 
 
 export function App() {
@@ -20,7 +22,9 @@ export function App() {
   {/* <Task/> */}
   {/* <PropUse/> */}
   {/* <PropPractice/> */}
-  <StaticImage/>
+  {/*  <StaticImage/> */}
+  <ArrayRendering/>
+
   
  
   </>
