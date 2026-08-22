@@ -7,6 +7,7 @@ import logo from "./logo.svg";
 import reactLogo from "./react.svg";
 import firstImage from "../assets/pro2.jpg"
 import { PropUse } from "./Components/PropUse";
+import { PropPractice } from "./Components/PropPractice";
 
 
 
@@ -17,7 +18,8 @@ export function App() {
   {/* <Header/> */}
   {/*  <ProjectTwo/> */}
   {/* <Task/> */}
-  <PropUse/>
+  {/* <PropUse/> */}
+  <PropPractice/>
   
  
   </>
