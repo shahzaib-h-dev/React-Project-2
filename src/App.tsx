@@ -11,7 +11,6 @@ import { PropPractice } from "./Components/PropPractice";
 import { StaticImage } from "./Components/StaticImage";
 
 
-
 export function App() {
 
   return (
@@ -21,7 +20,8 @@ export function App() {
   {/* <Task/> */}
   {/* <PropUse/> */}
   {/* <PropPractice/> */}
-  {/* <StaticImage/> */}
+  <StaticImage/>
+  
  
   </>
   );
