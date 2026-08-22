@@ -186,13 +186,138 @@ code {
   }
 }
 
-html, body{
-  margin: 0;
-}
+
 .ImgHeader{
   background-color: royalblue;
 }
 
 .HeaderImage{
   width: 40px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Main Layout Sizing */
+.app-container {
+  width: 100%;
+  max-width: 470px; /* Exact max width from the original design */
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
+
+.header {
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  gap: 7px;
+}
+
+.header h1 {
+  font-size: 14.5px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.cards-list {
+  padding: 35px; /* Consistent inner padding */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Individual Card Sizing - THIS IS THE CRITICAL FIX */
+.card {
+  display: flex; /* Enforces side-by-side alignment */
+  align-items: flex-start; /* Aligns text to the top of the image */
+  gap: 18px; /* Standard gap between image and text */
+  padding: 20px 0; /* Add vertical space around each card */
+  border-bottom: 1px solid #F5F5F5; /* Divider line */
+}
+
+/* Removes the divider line from the last card */
+.card:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Image Slot - THIS IS THE OTHER CRITICAL FIX */
+.card-image {
+  width: 125px; /* Exact width from design */
+  height: 168px; /* Exact height from design */
+  border-radius: 5px;
+  object-fit: cover; /* Prevents image distortion */
+  flex-shrink: 0; /* Prevents text from squishing the image box */
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Takes up the remaining space for the text info */
+}
+
+/* Typography and Spacing */
+.card-location-row {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+
+.location-icon {
+  color: #F55A5A;
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+.location-country {
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+  color: #2B283A;
+}
+
+.location-link {
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+.location-link:hover {
+  color: #555;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #2B283A;
+}
+
+.card-dates {
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #2B283A;
+}
+
+.card-desc {
+  font-size: 10px;
+  line-height: 1.5;
+  color: #2B283A;
 }
