@@ -19,13 +19,14 @@ export function App() {
   return (
     <>
   {/* <Header/> */}
-  {/*  <ProjectTwo/> */}
+  <ProjectTwo/> 
   {/* <Task/> */}
   {/* <PropUse/> */}
   {/* <PropPractice/> */}
   {/*  <StaticImage/> */}
   {/* <ArrayRendering/> */}
-  <MappingComponents/>
+  {/* <MappingComponents/> */}
+
   
  
   </>
