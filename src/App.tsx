@@ -13,7 +13,7 @@ export function App() {
     <>
   {/* <Header/> */}
   <ProjectTwo/>
-  <Task/>
+  {/* <Task/> */}
   </>
   );
 }
