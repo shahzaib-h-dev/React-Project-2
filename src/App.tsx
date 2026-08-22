@@ -5,6 +5,8 @@ import { Task } from "./Components/task";
 import "./index.css"; 
 import logo from "./logo.svg";
 import reactLogo from "./react.svg";
+import firstImage from "../assets/pro2.jpg"
+import { PropUse } from "./Components/PropUse";
 
 
 
@@ -13,12 +15,11 @@ export function App() {
   return (
     <>
   {/* <Header/> */}
-  <ProjectTwo/>
+  {/*  <ProjectTwo/> */}
   {/* <Task/> */}
-  <PropsCreation/>
-  <PropsCreation/>
-  <PropsCreation/>
-  <PropsCreation/>
+  <PropUse/>
+  
+ 
   </>
   );
 }
