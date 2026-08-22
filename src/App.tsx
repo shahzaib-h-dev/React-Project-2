@@ -11,6 +11,7 @@ import { PropPractice } from "./Components/PropPractice";
 import { StaticImage } from "./Components/StaticImage";
 import { PropStaticImage } from "./Components/PropStaticImage";
 import { ArrayRendering } from "./Components/ArrayRendering";
+import { MappingComponents } from "./Components/MappingComponents";
 
 
 export function App() {
@@ -23,8 +24,8 @@ export function App() {
   {/* <PropUse/> */}
   {/* <PropPractice/> */}
   {/*  <StaticImage/> */}
-  <ArrayRendering/>
-
+  {/* <ArrayRendering/> */}
+  <MappingComponents/>
   
  
   </>
