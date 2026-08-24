@@ -1,0 +1,42 @@
+import { Header } from "./Components/Header";
+import { ProjectTwo } from "./Components/ProjectTwo";
+import { PropsCreation } from "./Components/PropsCreation";
+import { Task } from "./Components/Task";
+import "./index.css"; 
+import logo from "./logo.svg";
+import reactLogo from "./react.svg";
+import firstImage from "../assets/pro2.jpg"
+import { PropUse } from "./Components/PropUse";
+import { PropPractice } from "./Components/PropPractice";
+import { StaticImage } from "./Components/StaticImage";
+import { PropStaticImage } from "./Components/PropStaticImage";
+import { ArrayRendering } from "./Components/ArrayRendering";
+import { MappingComponents } from "./Components/MappingComponents";
+
+
+export function App() {
+
+  return (
+    <>
+  {/* <Header/> */}
+  <ProjectTwo/> 
+  {/* <Task/> */}
+  {/* <PropUse/> */}
+  {/* <PropPractice/> */}
+  {/*  <StaticImage/> */}
+  {/* <ArrayRendering/> */}
+  {/* <MappingComponents/> */}
+  
+ 
+  </>
+  );
+}
+
+
+
+
+
+
+
+
+
